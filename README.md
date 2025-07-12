@@ -1,116 +1,110 @@
-# 💼 LendAnalytics: Bank Loan Analysis Dashboard
+# 📊 Bank Loan Analysis Dashboard (Excel)
 
-This Excel-powered dashboard provides a comprehensive visual analysis of a bank's historical loan data, helping stakeholders monitor key metrics like loan disbursement, repayment patterns, interest trends, and risk profiling.
+An Excel-based interactive dashboard that analyzes historical loan data to uncover insights about loan performance, customer behavior, risk segmentation, and repayment trends.
+
+---
+
+## 📁 Project Overview
+
+- 🔹 Built entirely in Microsoft Excel  
+- 🔹 Contains **2 fully functional dashboards**  
+- 🔹 Features **dynamic slicers** to filter data  
+- 🔹 Uses pivot tables, conditional formatting & slicer-linked visibility to simulate navigation
 
 ---
 
 ## 🖼️ Dashboards
 
-### 🔷 1. Summary Dashboard
-
-![Summary Dashboard](Summary%20Dashboard.png)
-
-A high-level view of Good vs Bad Loans including percentages, counts, and key metrics like funded amount, interest rate, and DTI.
-
----
-
-### 🔶 2. Overview Dashboard
+### 🟦 1. Overview Dashboard
 
 ![Overview Dashboard](Overview%20Dashboard.png)
 
-A broader analytical perspective with visual insights on:
-- Applications by Month, State, Term
-- Employee-based metrics
-- Home ownership segmentation
+Key insights:
+- Loan applications over time (by month/term/state)
+- Customer segmentation by home ownership and employment
+- Funded amount, interest rate & status analysis
+
+---
+
+### 🟩 2. Summary Dashboard
+
+![Summary Dashboard](Summary%20Dashboard.png)
+
+Key insights:
+- Good vs Bad loan ratio (Fully Paid vs Charged Off)
+- Total funded amount, average interest rate, DTI
+- Loan counts by status
 
 ---
 
 ## 🎛️ Interactive Slicers
 
-### 📊 Slicer Panel Overview
+### 🔄 Dashboard Toggle Slicer
 
-![Slicer Panel](Slicer%20View.png)
+![Dashboard Switch Slicer](Slicer%20To%20Change%20The%20Dashboards.png)
 
-This project features dynamic slicers to enable interactive filtering across the dashboards:
-
----
-
-### 🎚️ Grade & Purpose Filters
-
-- Allows users to filter loans based on **credit grades (A–G)** and **loan purpose** (like Credit Card, Car, Education, Small Business, etc.)
-- All related visuals update dynamically to reflect selected filters
-- Helps in focused risk or product-level analysis
+- A **custom slicer** used to switch between **Overview** and **Summary** dashboards  
+- Based on selected option, Excel shows/hides visuals using formulas + cell linking  
+- No need for multiple sheets — behaves like multi-page navigation in a single sheet
 
 ---
 
-### 📂 Dashboard Navigation Slicer
+### 🏷️ Grade & Purpose Slicers
 
-- Toggle between dashboards (e.g., **Summary**, **Overview**) using this slicer
-- When a dashboard is selected:
-  - Only relevant visuals are displayed
-  - Others are hidden using **cell linking + formula-based visibility**
-- Simulates multi-page navigation within one sheet (without using multiple tabs)
+![Grade Purpose Slicer](Slicer%20For%20Grade%20And%20Purpose.png)
 
----
-
-## 📁 Project Files
-
-- `Bank Loans Analysis.xlsx` — Main Excel Dashboard  
-- `financial_loan.csv` — Source dataset
+- Dynamically filters all visuals by:
+  - Loan **Grade** (A to G)
+  - Loan **Purpose** (Credit Card, Car, Education, Small Business, etc.)
+- Helps uncover insights like:
+  - Which grade has higher risk?
+  - Which purpose has more defaults?
 
 ---
 
-## 🔍 Features
+## 📂 Files Included
 
-- 2 Fully Functional Dashboards  
-- Dynamic Slicers for Custom Filtering  
-- Pivot Charts & Tables for Insights  
-- Conditional Formatting  
-- Interactive & Print-Ready Design  
+- `Bank Loans Analysis.xlsx` → Excel dashboard file  
+- `financial_loan.csv` → Raw dataset used in the dashboard  
 
 ---
 
-## 📂 Data Fields
-
-The dataset includes:
-- `loan_status`
-- `funded_amount`
-- `term`
-- `interest_rate`
-- `grade`
-- `purpose`
-- `home_ownership`
-- and more...
-
----
-
-## 🛠 Built With
+## ⚙️ Built With
 
 - Microsoft Excel  
-- Pivot Tables  
-- Pivot Charts  
+- Pivot Tables & Charts  
 - Slicers  
+- IF logic for dashboard visibility  
 - Conditional Formatting  
+
+---
+
+## 🧠 Insights Possible
+
+- Risk segmentation across grades  
+- Loan status trends over time  
+- Loan performance by geography, term, purpose  
+- Disbursement and repayment overview  
 
 ---
 
 ## 📌 How to Use
 
-1. Clone or download the repository.  
-2. Open `Bank Loans Analysis.xlsx`.  
-3. Use slicers to interact with grade, purpose, and dashboard views.  
-4. Use dashboard switch slicer to toggle between Summary and Overview dashboards.  
+1. Download and open `Bank Loans Analysis.xlsx`  
+2. Use the **dashboard slicer** to switch between Overview and Summary  
+3. Apply filters using the **Grade** and **Purpose** slicers  
+4. Hover or click charts to view contextual summaries
 
 ---
 
-## 👨‍💻 Developed By
+## 👨‍💻 Created By
 
 **Hrithik Kumar**  
 *Data Analyst | Power BI Analyst*  
-🌐 [GitHub Profile](https://github.com/hrithik15082000)
+🔗 [GitHub Profile](https://github.com/hrithik15082000)
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License — feel free to use, modify, and share.
+This project is licensed under the MIT License. Free to use and modify.
