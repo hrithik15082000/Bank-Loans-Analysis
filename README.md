@@ -27,26 +27,29 @@ A broader analytical perspective with visual insights on:
 
 ## 🎛️ Interactive Slicers
 
+### 📊 Slicer Panel Overview
+
+![Slicer Panel](Slicer%20View.png)
+
+This project features dynamic slicers to enable interactive filtering across the dashboards:
+
+---
+
 ### 🎚️ Grade & Purpose Filters
 
-This slicer allows users to filter loan data based on **loan grades (A to G)** and **loan purposes** like:
-- Credit Card
-- Car
-- Education
-- Small Business
-- Medical, etc.
-
-By selecting one or more grades/purposes, all dashboard visuals update accordingly to provide focused insights.
+- Allows users to filter loans based on **credit grades (A–G)** and **loan purpose** (like Credit Card, Car, Education, Small Business, etc.)
+- All related visuals update dynamically to reflect selected filters
+- Helps in focused risk or product-level analysis
 
 ---
 
 ### 📂 Dashboard Navigation Slicer
 
-A **toggle-style slicer** is used to **switch between dashboards** (like Summary & Overview) inside the same Excel sheet.
-
-- When a user selects a particular dashboard from the slicer (e.g., “Summary”), only visuals related to that dashboard become visible.
-- The remaining visuals are hidden using **cell linking & selection-based visibility**.
-- It's a creative way to simulate multi-page navigation within a single Excel page.
+- Toggle between dashboards (e.g., **Summary**, **Overview**) using this slicer
+- When a dashboard is selected:
+  - Only relevant visuals are displayed
+  - Others are hidden using **cell linking + formula-based visibility**
+- Simulates multi-page navigation within one sheet (without using multiple tabs)
 
 ---
 
@@ -96,6 +99,7 @@ The dataset includes:
 1. Clone or download the repository.  
 2. Open `Bank Loans Analysis.xlsx`.  
 3. Use slicers to interact with grade, purpose, and dashboard views.  
+4. Use dashboard switch slicer to toggle between Summary and Overview dashboards.  
 
 ---
 
