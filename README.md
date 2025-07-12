@@ -10,7 +10,7 @@ This Excel-powered dashboard provides a comprehensive visual analysis of a bank'
 
 A high-level view of Good vs Bad Loans including percentages, counts, and key metrics like funded amount, interest rate, and DTI.
 
-![Summary Dashboard](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Summary%20Dashboard.png)
+![Summary Dashboard](Summary%20Dashboard.png)
 
 ---
 
@@ -21,7 +21,7 @@ A broader analytical perspective with visual insights on:
 - Employee-based metrics
 - Home ownership segmentation
 
-![Overview Dashboard](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Overview%20Dashboard.png)
+![Overview Dashboard](Overview%20Dashboard.png)
 
 ---
 
@@ -31,7 +31,7 @@ A broader analytical perspective with visual insights on:
 
 Explore loan patterns across various grades (A–G) and purposes (Car, Credit Card, Education, etc.)
 
-![Slicer Grade Purpose](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Slicer%20For%20Grade%20And%20Purpose.png)
+![Slicer Grade Purpose](Slicer%20For%20Grade%20And%20Purpose.png)
 
 ---
 
@@ -39,7 +39,7 @@ Explore loan patterns across various grades (A–G) and purposes (Car, Credit Ca
 
 Easily switch between dashboard views: Summary, Overview, or Details (if added).
 
-![Slicer Navigation](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Slicer%20To%20Change%20The%20Dashboards.png)
+![Dashboard Navigation](Slicer%20To%20Change%20The%20Dashboards.png)
 
 ---
 
