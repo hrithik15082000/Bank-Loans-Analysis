@@ -10,7 +10,7 @@ This Excel-powered dashboard provides a comprehensive visual analysis of a bank'
 
 A high-level view of Good vs Bad Loans including percentages, counts, and key metrics like funded amount, interest rate, and DTI.
 
-![Summary Dashboard](assets/Summary%20Dashboard.png)
+![Summary Dashboard](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Summary%20Dashboard.png)
 
 ---
 
@@ -21,7 +21,7 @@ A broader analytical perspective with visual insights on:
 - Employee-based metrics
 - Home ownership segmentation
 
-![Overview Dashboard](assets/Overview%20Dashboard.png)
+![Overview Dashboard](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Overview%20Dashboard.png)
 
 ---
 
@@ -29,42 +29,34 @@ A broader analytical perspective with visual insights on:
 
 ### 🎚️ Grade & Purpose Filters
 
-Easily explore trends based on loan **grade (A–G)** and **purpose** such as:
-- Car
-- Credit Card
-- Debt Consolidation
-- Educational
-- Home Improvement
+Explore loan patterns across various grades (A–G) and purposes (Car, Credit Card, Education, etc.)
 
-![Slicer Grade Purpose](assets/Slicer%20For%20Grade%20And%20Purpose.png)
+![Slicer Grade Purpose](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Slicer%20For%20Grade%20And%20Purpose.png)
 
 ---
 
 ### 📂 Dashboard Navigation Slicer
 
-Toggle between:
-- Summary
-- Overview
-- Details *(if added)*
+Easily switch between dashboard views: Summary, Overview, or Details (if added).
 
-![Slicer Navigation](assets/Slicer%20To%20Change%20The%20Dashboards.png)
+![Slicer Navigation](https://raw.githubusercontent.com/hrithik15082000/loan-analysis-dashboard/main/assets/Slicer%20To%20Change%20The%20Dashboards.png)
 
 ---
 
 ## 📁 Project Files
 
-- `Bank Loans Analysis.xlsx` — Main Excel Dashboard
+- `Bank Loans Analysis.xlsx` — Main Excel Dashboard  
 - `financial_loan.csv` — Source dataset
 
 ---
 
 ## 🔍 Features
 
-- 2 Fully Functional Dashboards
-- Dynamic Slicers for Custom Filtering
-- Pivot Charts & Tables for Insights
-- Conditional Formatting
-- Interactive & Print-Ready Design
+- 2 Fully Functional Dashboards  
+- Dynamic Slicers for Custom Filtering  
+- Pivot Charts & Tables for Insights  
+- Conditional Formatting  
+- Interactive & Print-Ready Design  
 
 ---
 
@@ -84,19 +76,19 @@ The dataset includes:
 
 ## 🛠 Built With
 
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- Conditional Formatting
+- Microsoft Excel  
+- Pivot Tables  
+- Pivot Charts  
+- Slicers  
+- Conditional Formatting  
 
 ---
 
 ## 📌 How to Use
 
-1. Clone or download the repository.
-2. Open `Bank Loans Analysis.xlsx`.
-3. Use slicers to interact with grade, purpose, and dashboard views.
+1. Clone or download the repository.  
+2. Open `Bank Loans Analysis.xlsx`.  
+3. Use slicers to interact with grade, purpose, and dashboard views.  
 
 ---
 
@@ -104,7 +96,7 @@ The dataset includes:
 
 **Hrithik Kumar**  
 *Data Analyst | Power BI Analyst*  
-🌐 [GitHub Profile](https://github.com/hrithikb-tech)
+🌐 [GitHub Profile](https://github.com/hrithik15082000)
 
 ---
 
