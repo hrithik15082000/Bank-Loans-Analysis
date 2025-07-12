@@ -29,17 +29,24 @@ A broader analytical perspective with visual insights on:
 
 ### 🎚️ Grade & Purpose Filters
 
-![Slicer Grade Purpose](Slicer%20For%20Grade%20And%20Purpose.png)
+This slicer allows users to filter loan data based on **loan grades (A to G)** and **loan purposes** like:
+- Credit Card
+- Car
+- Education
+- Small Business
+- Medical, etc.
 
-Explore loan patterns across various grades (A–G) and purposes (Car, Credit Card, Education, etc.)
+By selecting one or more grades/purposes, all dashboard visuals update accordingly to provide focused insights.
 
 ---
 
 ### 📂 Dashboard Navigation Slicer
 
-![Dashboard Navigation](Slicer%20To%20Change%20The%20Dashboards.png)
+A **toggle-style slicer** is used to **switch between dashboards** (like Summary & Overview) inside the same Excel sheet.
 
-Easily switch between dashboard views: Summary, Overview, or Details (if added).
+- When a user selects a particular dashboard from the slicer (e.g., “Summary”), only visuals related to that dashboard become visible.
+- The remaining visuals are hidden using **cell linking & selection-based visibility**.
+- It's a creative way to simulate multi-page navigation within a single Excel page.
 
 ---
 
