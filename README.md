@@ -53,6 +53,7 @@ Key insights:
 
 ![Slicer For Grade And Purpose](Slicer%20For%20Grade%20And%20Purpose.png)
 
+
 - Dynamically filters all visuals by:
   - Loan **Grade** (A to G)
   - Loan **Purpose** (Credit Card, Car, Education, Small Business, etc.)
